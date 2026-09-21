@@ -18,4 +18,10 @@
 @media(min-width:761px){.masthead{min-height:132px}.brand{gap:18px}.brand-mark{width:84px;height:84px}.brand strong{font-size:1.75rem}.brand small{font-size:.9375rem;line-height:1.4}.header-note{font-size:.875rem;max-width:230px}.header-right{gap:24px;flex-shrink:0}}
 @media(max-width:760px){.brand-mark{width:56px;height:56px}.brand strong{font-size:1.25rem}.brand small{font-size:.7rem}.masthead{min-height:104px}.brand{min-width:0}.brand>span{min-width:0}}
 
+/* Compact secondary actions remain visibly interactive without arrows. */
+.text-link{display:inline-flex;align-items:center;justify-content:center;padding:7px 12px;border:1px solid #dce5ef;border-radius:5px;background:#edf3f8;color:#254d76;line-height:1.4;text-decoration:none;max-width:100%;transition:background .2s,border-color .2s}
+.text-link:hover,.case-card:hover .text-link{background:#dfeaf4;border-color:#b9cddd;text-decoration:none}
+.cta-band>.button{flex-shrink:0;max-width:390px;text-align:center;white-space:normal}
+@media(max-width:760px){.cta-band>.button{max-width:100%}.hero .button{white-space:normal;text-align:center}}
+
 [hidden]{display:none!important}
