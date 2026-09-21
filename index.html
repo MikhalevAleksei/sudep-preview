@@ -1,5 +1,37 @@
 <!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Палата судебной экспертизы криптографии и электронной подписи | АНО СудЭП Москва</title><meta name="description" content="Официальный сайт АНО СудЭП. Судебная и досудебная техническая экспертиза электронной подписи (ЭП), криптографический анализ файлов и логов по всей России. Независимая оценка и защита в суде."><meta name="keywords" content="палата судебной экспертизы, экспертиза электронной подписи, судебная криптографическая экспертиза, оспорить ЭЦП в суде, компьютерно-техническая экспертиза документов, АНО СудЭП, независимый судебный эксперт Москва."><meta name="theme-color" content="#102a46"><link rel="icon" href="/sudep-preview/static/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/sudep-preview/static/css/site.css?v=d7eaae609c94"><meta name="robots" content="noindex,nofollow,noarchive"><script src="/sudep-preview/static/js/preview.js?v=9cd485be2196" defer></script><script src="/sudep-preview/static/js/site.js?v=a37e2b891111" defer></script></head>
+<html lang="ru"><head><script data-preview-version="d7db92ac5af452b7" data-preview-base="/sudep-preview">// Check the deployment version on entry and when restoring a cached page.
+(() => {
+  const script = document.currentScript;
+  const current = script.dataset.previewVersion;
+  const base = script.dataset.previewBase;
+  let checking = false;
+  async function checkVersion() {
+    if (checking) return;
+    checking = true;
+    try {
+      const response = await fetch(`${base}/build-version.json?t=${Date.now()}`, {
+        cache: 'no-store', credentials: 'omit',
+      });
+      if (!response.ok) return;
+      const {version} = await response.json();
+      if (!/^[a-f0-9]{16}$/.test(version) || version === current) return;
+      const next = new URL(location.href);
+      // One navigation per version even while a CDN deployment is propagating.
+      if (next.searchParams.get('_v') === version) return;
+      next.searchParams.set('_v', version);
+      location.replace(next.href);
+    } catch (_) {
+      // An offline or failed check must leave the existing page usable.
+    } finally {
+      checking = false;
+    }
+  }
+  checkVersion();
+  window.addEventListener('pageshow', event => {
+    if (event.persisted) checkVersion();
+  });
+})();
+</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Палата судебной экспертизы криптографии и электронной подписи | АНО СудЭП Москва</title><meta name="description" content="Официальный сайт АНО СудЭП. Судебная и досудебная техническая экспертиза электронной подписи (ЭП), криптографический анализ файлов и логов по всей России. Независимая оценка и защита в суде."><meta name="keywords" content="палата судебной экспертизы, экспертиза электронной подписи, судебная криптографическая экспертиза, оспорить ЭЦП в суде, компьютерно-техническая экспертиза документов, АНО СудЭП, независимый судебный эксперт Москва."><meta name="theme-color" content="#102a46"><link rel="icon" href="/sudep-preview/static/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/sudep-preview/static/css/site.css?v=d7eaae609c94"><meta name="robots" content="noindex,nofollow,noarchive"><script src="/sudep-preview/static/js/preview.js?v=8cb72e8d7f32" defer></script><script src="/sudep-preview/static/js/site.js?v=a37e2b891111" defer></script></head>
 <body><a class="skip" href="#main">Перейти к содержимому</a>
 
 <header class="site-header"><div class="container masthead"><a class="brand" href="/sudep-preview/"><img class="brand-mark" src="/sudep-preview/static/img/ep-icon-gold.webp" width="62" height="62" alt="" decoding="async"><span><strong>АНО СудЭП</strong><small>Палата судебной экспертизы<br>криптографии и электронной подписи</small></span></a><div class="header-right"><span class="header-note">Независимость. Объективность. Точность.</span><a class="button button-small" href="/sudep-preview/account/">Личный кабинет</a></div><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню">☰</button></div><nav id="main-nav" class="container main-nav" aria-label="Основная навигация"><a href="/sudep-preview/about/">О палате</a><a href="/sudep-preview/services/">Услуги</a><a href="/sudep-preview/registry/">Эксперты</a><a href="/sudep-preview/education/">Обучение</a><a href="/sudep-preview/documents/">Документы</a><a href="/sudep-preview/contacts/">Контакты</a><a href="/sudep-preview/faq/">Вопросы и ответы</a><a class="mobile-account" href="/sudep-preview/account/">Личный кабинет</a><a class="nav-cta" href="/sudep-preview/expertise/?mode=extended#request">Заказать экспертизу</a></nav></header>

@@ -1,4 +1,4 @@
-// Public, read-only preview. No requests, uploads or browser storage.
+// Public, read-only preview controls. No submissions or uploads.
 const previewParams=new URLSearchParams(location.search);
 document.querySelectorAll('[data-preview-form]').forEach(form=>{
   const extended=form.querySelector('[name="mode"][value="extended"]');
