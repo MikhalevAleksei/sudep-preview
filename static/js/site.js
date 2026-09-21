@@ -3,9 +3,4 @@ document.querySelectorAll('[data-inquiry]').forEach(form=>{const area=form.query
 document.querySelectorAll('form[data-confirm]').forEach(form=>form.addEventListener('submit',event=>{if(!confirm(form.dataset.confirm))event.preventDefault()}));
 document.querySelectorAll('.inquiry-form').forEach(form=>form.addEventListener('submit',()=>{if(form.checkValidity()){const button=form.querySelector('button[type=submit]');button.disabled=true;button.textContent='Отправляем…'}}));
 
-const decisionSubmit=document.querySelector('[data-decision-submit]');
-if(decisionSubmit){
-  const decision=decisionSubmit.form.querySelector('[name="action"]');
-  const updateDecisionLabel=()=>{decisionSubmit.textContent=({approve:'Одобрить заявку',rejected:'Отклонить'})[decision.value]||'Сохранить решение'};
-  decision.addEventListener('change',updateDecisionLabel);updateDecisionLabel();
-}
+document.querySelectorAll('button[data-confirm-action]').forEach(button=>button.addEventListener('click',event=>{if(!confirm(button.dataset.confirmAction))event.preventDefault()}));
