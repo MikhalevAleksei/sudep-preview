@@ -24,4 +24,36 @@
 .cta-band>.button{flex-shrink:0;max-width:390px;text-align:center;white-space:normal}
 @media(max-width:760px){.cta-band>.button{max-width:100%}.hero .button{white-space:normal;text-align:center}}
 
+/* New member confirmation: make the path from application to membership explicit. */
+.staff-toolbar-note{margin-left:auto;align-self:center}
+.member-confirmation .small-heading .eyebrow{margin-bottom:6px}
+.count-badge{background:#fdf3e2;border-color:#e6cf9f;color:#84591a}
+.howto{list-style:decimal;padding-left:22px;margin:18px 0 0;color:#4f6479;font-size:.86rem;line-height:1.7}
+.howto li{margin-bottom:7px;padding-left:4px}
+.howto-panel{border-left:3px solid #2a6396;background:#f1f7fc;border-radius:4px;padding:16px 18px;margin:18px 0}
+.howto-panel>strong{display:block;margin-bottom:6px}
+.howto-panel .howto{margin-top:10px}
+.howto-panel.success{border-left-color:#31815a;background:#edf7f2}
+.staff-callout{display:flex;justify-content:space-between;align-items:center;gap:22px}
+.staff-callout p{margin:5px 0 0}
+.staff-callout .button{flex-shrink:0}
+.empty-state.compact{padding:34px 22px}
+.empty-state.compact h3{font-size:1.2rem}
+.decision-panel{align-self:start}
+@media(max-width:760px){.staff-toolbar-note{margin-left:0}.staff-callout{display:block}.staff-callout .button{margin-top:15px;width:100%}}
+
+/* Staff appointment: role checkboxes, QR enrollment and owner actions. */
+.field-label{display:block;font-size:.86rem;font-weight:550;margin-bottom:7px}
+.role-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.role-option{display:flex;gap:10px;align-items:flex-start;border:1px solid #d6e0ea;border-radius:5px;padding:12px 13px;cursor:pointer;background:#f9fbfd}
+.role-option input{margin-top:3px}
+.role-option span{display:block;min-width:0}
+.role-option strong{display:block;font-size:.84rem;line-height:1.35}
+.role-option small{display:block;color:#6f8299;font-size:.74rem;line-height:1.45;margin-top:3px}
+.role-option:has(input:checked){border-color:#2a6396;background:#f1f7fc;box-shadow:inset 0 0 0 1px #2a6396}
+.role-badge{margin:0 5px 5px 0;background:#eef3f9;border-color:#d3dfea;color:#3c5c7c}
+.danger-zone{margin-top:20px}
+.team-form{max-width:860px}
+@media(max-width:760px){.role-grid{grid-template-columns:1fr}.staff-callout-actions{margin-top:15px;width:100%}.staff-callout-actions .button{margin-top:0;width:100%}}
+
 [hidden]{display:none!important}
