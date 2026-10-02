@@ -1,0 +1,11 @@
+/* Client-supplied home background. A separate URL refreshes cached styles. */
+.hero {
+  background-image: linear-gradient(90deg, rgba(9,27,44,.97) 0%, rgba(9,27,44,.83) 40%, rgba(9,27,44,.05) 82%), url('/sudep-preview/static/img/hero-client-20261002.jpg');
+}
+
+@media (max-width: 760px) {
+  .hero {
+    background-position: right center;
+    background-image: linear-gradient(90deg, rgba(9,27,44,.94), rgba(9,27,44,.72)), url('/sudep-preview/static/img/hero-client-20261002.jpg');
+  }
+}
