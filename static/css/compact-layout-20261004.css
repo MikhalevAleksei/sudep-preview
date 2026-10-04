@@ -1,0 +1,173 @@
+/* Shared spacing for public pages, expert accounts and the owner workspace. */
+p { margin-bottom: .45em; }
+h2, h3, h4 { margin-bottom: .5em; }
+
+.prose p, .faq-answer p, .public-expert-body p, .article-summary p,
+.case-card p, .side-card p, .panel p { margin-bottom: .45em; }
+.panel > p:last-child, .side-card > p:last-child, .case-card > p:last-child,
+.prose p:last-child, .faq-answer p:last-child { margin-bottom: 0; }
+.prose h2 { margin-top: .9em; margin-bottom: .35em; }
+.prose h3, .public-expert-body h3 { margin-top: .8em; margin-bottom: .35em; }
+.public-expert-body > h3:first-child { margin-top: 0; }
+.prose ul, .prose ol, .qualification-list { margin: .3em 0 .45em; }
+.qualification-list li, .plain-steps li, .howto li { margin: .15em 0; }
+.plain-steps { margin-top: 14px; }
+
+.masthead { min-height: 120px; gap: 18px; }
+.main-nav { min-height: 64px; padding-top: 6px; padding-bottom: 6px; }
+.nav-links { gap: 4px 14px; }
+.nav-actions { gap: 14px; }
+
+.page-head { padding: 26px 0 24px; }
+.breadcrumb { margin-bottom: 10px; }
+.page-head h1 { margin-bottom: 10px; }
+.page-head h1:last-child { margin-bottom: 0; }
+.eyebrow { margin-bottom: 10px; }
+.content { padding-top: 30px; padding-bottom: 40px; }
+.section { padding-top: 48px; padding-bottom: 48px; }
+.section-heading { gap: 30px; margin-bottom: 22px; }
+.small-heading { gap: 12px; flex-wrap: wrap; align-items: center; }
+.small-heading h2 { flex-shrink: 0; max-width: 100%; margin-bottom: 0; }
+.small-heading form, .small-heading .button { max-width: 100%; }
+.surface .section-heading { margin-bottom: 22px; }
+.compact-section { padding-top: 32px; padding-bottom: 8px; }
+.spaced { margin-top: 16px; }
+
+.hero { min-height: 480px; }
+.hero-content { padding-top: 44px; padding-bottom: 36px; }
+.hero h1 { margin-bottom: 16px; }
+.hero-lead { margin-bottom: 8px; }
+.hero-description { margin-bottom: 10px; }
+.hero .button-row { margin-top: 18px; }
+.hero-footnote { margin-top: 18px; }
+.hero-number { bottom: 22px; }
+.trust-grid { padding-top: 16px; padding-bottom: 16px; }
+
+.grid-2, .grid-3, .case-grid, .dashboard-grid { gap: 20px; }
+.content-layout { gap: 32px; }
+.request-grid { gap: 24px; }
+.panel, .form-panel, .side-card { padding: 22px; }
+.case-card { padding: 22px 20px; }
+.case-symbol { margin-bottom: 16px; }
+.case-card h3 { margin-bottom: 8px; }
+.card-kicker, .trust-reasons .card-kicker, .object-cards .card-kicker { margin-bottom: 10px; }
+.numbered-case { gap: 12px; }
+.side-card > a:not(.text-link) { margin: 10px 0; }
+.side-card hr { margin: 16px 0; }
+.cta-band { padding: 24px 28px; gap: 24px; margin-top: 28px; }
+.cta-band h2 { margin-bottom: 6px; }
+.cta-band .eyebrow { margin-bottom: 8px; }
+.empty-state { padding: 34px 22px; }
+.empty-state.compact { padding: 22px 18px; }
+.empty-state p { margin-bottom: 14px; }
+
+.field { margin-bottom: 14px; }
+.form-grid { gap: 14px 16px; }
+.form-grid > .field { margin-bottom: 0; }
+.form-grid + .field { margin-top: 14px; }
+.field > label, .field-label { margin-bottom: 5px; }
+.help { margin-top: 6px; }
+.mode-switch > div { margin: 16px 0; }
+.upload-box { padding: 16px; }
+.upload-box label span { margin: 5px 0 10px; }
+.error-summary { padding: 12px 16px; margin-bottom: 14px; }
+.notice { padding: 14px 18px; margin: 16px 0; }
+.button-row { gap: 10px; }
+
+.auth-layout { gap: 40px; padding-top: 36px; padding-bottom: 44px; }
+.auth-layout aside { padding-top: 12px; }
+.auth-links { margin-top: 16px; }
+.dashboard-grid aside > .side-card { margin-top: 16px; }
+.compact-data { margin-top: 0; margin-bottom: 18px; }
+.compact-data dt { margin-top: 10px; }
+.compact-data dt:first-child { margin-top: 0; }
+.status-track { margin: 14px 0; }
+.file-row { padding: 12px 0; }
+.history-item { padding: 12px 0; }
+.staff-toolbar { margin-bottom: 16px; }
+.staff-tabs { gap: 20px; padding-bottom: 12px; }
+.howto { margin-top: 12px; }
+.howto-panel { padding: 12px 16px; margin: 14px 0; }
+.role-option { padding: 10px 12px; }
+.staff-callout { gap: 16px; }
+
+.data-list { margin: 18px 0 22px; }
+.data-list dt, .data-list dd { padding-top: 10px; padding-bottom: 10px; }
+th { padding: 11px 14px; }
+td { padding: 13px 14px; }
+.price-table td { padding-top: 14px; padding-bottom: 14px; }
+.document-list article { padding: 18px 0; gap: 16px; }
+.object-list summary, .faq-list summary { padding: 16px 0; }
+.object-list p, .faq-answer { padding-bottom: 10px; }
+
+.education-visual { padding: 36px 24px; gap: 20px; }
+.education-copy { padding: 26px; }
+.education-steps li { padding-bottom: 10px; }
+.public-expert-list { gap: 24px; }
+.public-expert-heading { padding: 20px 24px; gap: 16px; }
+.public-expert-body { padding: 24px; }
+.expert-facts { gap: 16px; padding: 16px; margin: 16px 0; }
+.expert-document-grid { gap: 14px; margin: 14px 0 20px; }
+.article-summary { padding: 20px 0; }
+.article-summary h2 { margin: 8px 0; }
+.article-byline { gap: 18px; margin-bottom: 18px; }
+.article-body { margin-bottom: 24px; }
+.process-stack { gap: 22px; padding-bottom: 20px; }
+.process-card { min-height: 180px; padding: 26px 30px; gap: 24px; }
+.process-card .card-kicker { margin-bottom: 8px; }
+.process-card h3 { margin-bottom: 8px; }
+.success-panel { padding: 30px 20px; }
+.success-icon { margin-bottom: 18px; }
+.success-panel .button { margin-top: 16px; }
+
+footer { padding-top: 32px; }
+.footer-grid { gap: 32px; padding-bottom: 28px; }
+.footer-grid p { margin: 6px 0; }
+.footer-grid > div > a:not(.footer-brand) { margin-bottom: 6px; }
+.footer-bottom { padding-top: 14px; padding-bottom: 16px; }
+
+@media (max-width: 1180px) {
+  .masthead { min-height: 116px; }
+  .main-nav { gap: 6px; }
+  .nav-links { gap: 4px 12px; }
+}
+
+@media (max-width: 760px) {
+  .container { padding-left: 18px; padding-right: 18px; }
+  .masthead { min-height: 104px; gap: 10px; }
+  .main-nav { padding-top: 0; padding-bottom: 14px; }
+  .main-nav.open { gap: 14px; }
+  .nav-links { gap: 0; }
+  .page-head { padding: 22px 0; }
+  .breadcrumb { margin-bottom: 8px; }
+  .page-head h1 { margin-bottom: 8px; }
+  .content { padding-top: 22px; padding-bottom: 30px; }
+  .section { padding-top: 32px; padding-bottom: 32px; }
+  .section-heading, .surface .section-heading { margin-bottom: 18px; }
+  .section-heading p { margin-top: 10px; }
+  .hero { min-height: 0; }
+  .hero-content { padding-top: 32px; padding-bottom: 28px; }
+  .hero h1 { margin-bottom: 12px; }
+  .grid-2, .grid-3, .dashboard-grid { gap: 16px; }
+  .case-grid { gap: 12px; }
+  .content-layout, .request-grid { gap: 22px; }
+  .panel, .form-panel, .side-card { padding: 18px; }
+  .case-card { padding: 18px 16px; }
+  .cta-band { padding: 20px; gap: 16px; }
+  .auth-layout { padding-top: 24px; padding-bottom: 30px; gap: 20px; }
+  .auth-layout aside { padding-top: 0; }
+  .dashboard-heading form, .small-heading form { margin-top: 12px; }
+  .staff-tabs { gap: 12px 18px; }
+  .data-list dt { padding-bottom: 0; }
+  .data-list dd { padding-top: 4px; }
+  .education-visual { padding: 26px 20px; gap: 12px; }
+  .education-copy { padding: 20px; }
+  .public-expert-heading { padding: 18px; gap: 14px; }
+  .public-expert-body { padding: 18px; }
+  .expert-facts { gap: 10px; padding: 14px; }
+  .expert-document-grid { gap: 12px; }
+  .process-stack { gap: 18px; }
+  .process-card { min-height: 0; padding: 22px 18px; gap: 14px; }
+  .footer-grid { gap: 22px; }
+  .footer-bottom { gap: 10px; }
+}
