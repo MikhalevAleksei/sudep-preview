@@ -1,0 +1,8 @@
+/* Client corrections 1–9 from Сайт-исправления.docx. */
+.site-header .social-icon svg,
+.site-header .social-icon img { width: 16px; height: 16px; }
+.hero h1 { font-size: clamp(2rem, 3.4vw, 3rem); }
+.about-directions > section > h2 { font-size: 1.125rem; line-height: 1.4; }
+@media (max-width: 760px) {
+  .hero h1 { font-size: 1.85rem; }
+}
